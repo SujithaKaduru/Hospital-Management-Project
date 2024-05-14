@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Details</title>
+    <link rel="stylesheet" href="patientdetails.css">
+</head>
+<body>
+    <div class="patient-details-container">
+        <h2>Patient Details</h2>
+        <div class="section">
+            <label for="appointment" onclick="navigateTo('appointment.html')">Appointment Booking</label>
+        </div>
+        <div class="section">
+            <label for="prescription" onclick="navigateTo('prescription.html')">Prescription Details</label>
+        </div>
+        <div class="section">
+            <label for="notifying-tablets" onclick="navigateTo('notifying_tablets.html')">Notifying Tablets</label>
+        </div>
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

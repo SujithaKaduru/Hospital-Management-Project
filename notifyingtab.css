@@ -1,0 +1,36 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.notification {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.tablet-info,
+.notification-message {
+    margin-bottom: 20px;
+}
+
+.notification-message {
+    background-color: #ffeeba;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.notification-message p {
+    margin: 0;
+}
+
+h3 {
+    color: #007bff;
+}
